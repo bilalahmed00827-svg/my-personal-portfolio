@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bilal Ahmed — Computer Science student exploring web development, Python, data engineering and AI.">
+  <title>Bilal Ahmed | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">BA<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT · KARACHI, PAKISTAN</p>
+        <h1>Hi, I'm Bilal.<br><span class="gradient-text">I build and learn</span><br>with technology.</h1>
+        <p class="hero-description">I'm a Computer Science student exploring web development, Python, data engineering and AI. I enjoy turning what I learn into practical projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore projects <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="hero-meta"><span>📍 Karachi, Pakistan</span><span>🎓 BS Computer Science</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><span></span><span></span><span></span><small>bilal.py</small></div>
+          <div class="code-lines">
+            <p><span class="line-no">01</span><span class="code-purple">class</span> Developer:</p>
+            <p><span class="line-no">02</span>&nbsp;&nbsp;name = <span class="code-green">"Bilal Ahmed"</span></p>
+            <p><span class="line-no">03</span>&nbsp;&nbsp;focus = [</p>
+            <p><span class="line-no">04</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Web Development"</span>,</p>
+            <p><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Data Engineering"</span>,</p>
+            <p><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"AI & Python"</span></p>
+            <p><span class="line-no">07</span>&nbsp;&nbsp;]</p>
+            <p><span class="line-no">08</span>&nbsp;&nbsp;<span class="code-purple">def</span> keep_learning(self):</p>
+            <p><span class="line-no">09</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-green">"Every day"</span> <span class="cursor">▍</span></p>
+          </div>
+        </div>
+        <div class="floating-tag tag-top">{" "} &lt;/&gt; HTML · CSS · JS</div>
+        <div class="floating-tag tag-bottom">Python • SQL • AI</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT ME</p><h2>Curious mind.<br><span class="muted">Practical mindset.</span></h2></div>
+      <div class="about-content">
+        <p class="about-lead">I'm studying Computer Science at Muhammad Ali Jinnah University in Karachi and building my skills one project at a time.</p>
+        <p>My learning journey includes frontend fundamentals, Python programming and data analysis. I'm also studying SQL and exploring the foundations of data engineering and AI. My goal is to keep improving, build useful projects, and grow into a capable technology professional.</p>
+        <div class="about-pills"><span>Always learning</span><span>Problem solving</span><span>Project focused</span></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / SKILLS</p><h2>Tools I'm learning<br><span class="muted">and working with.</span></h2></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Web Development</h3><p>HTML · CSS · JavaScript</p><span class="skill-note">Frontend fundamentals</span></article>
+          <article class="skill-card"><div class="skill-icon">Py</div><h3>Programming</h3><p>Python · C++</p><span class="skill-note">Programming practice</span></article>
+          <article class="skill-card"><div class="skill-icon">▤</div><h3>Data & SQL</h3><p>SQL · MySQL · NumPy · Pandas</p><span class="skill-note">Learning and practice</span></article>
+          <article class="skill-card"><div class="skill-icon">⑂</div><h3>Developer Tools</h3><p>Git · GitHub · Matplotlib</p><span class="skill-note">Version control & data visuals</span></article>
+        </div>
+        <p class="small-note">Skill list is a starting point. We’ll adjust it after checking your CV and what you can confidently demonstrate.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects that show<br><span class="muted">my learning in action.</span></h2></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one"><span class="project-symbol">＋</span><span class="visual-label">01 / FRONTEND</span></div>
+          <div class="project-info"><div class="project-title-row"><h3>Calculator</h3><span class="project-status">Planned / verify</span></div><p>A simple calculator project to practise layout, input handling and JavaScript logic.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="text-link" href="#contact">Add project link after upload ↗</a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-two"><span class="project-symbol">▦</span><span class="visual-label">02 / WEB</span></div>
+          <div class="project-info"><div class="project-title-row"><h3>Personal Portfolio</h3><span class="project-status">In progress</span></div><p>This responsive portfolio site presents my background, current skills and learning journey.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="text-link" href="#home">You're viewing it ↗</a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-three"><span class="project-symbol">🛍</span><span class="visual-label">03 / E-COMMERCE</span></div>
+          <div class="project-info"><div class="project-title-row"><h3>Mini Mart</h3><span class="project-status">Planned / verify</span></div><p>An e-commerce practice idea for presenting products and exploring a shopping interface.</p><div class="tags"><span>Frontend</span><span>UI Design</span></div><a class="text-link" href="#contact">Add project link after upload ↗</a></div>
+        </article>
+      </div>
+      <p class="small-note">The Calculator and Mini Mart entries are marked for verification. We should only label them completed after reviewing the actual code or live project.</p>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">04 / EDUCATION</p><h2>Learning is a<br><span class="muted">continuous process.</span></h2></div>
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-marker"></div><div><p class="timeline-date">UNIVERSITY</p><h3>BS Computer Science</h3><p class="timeline-place">Muhammad Ali Jinnah University (MAJU) · Karachi</p><p>Currently studying Computer Science. Semester details should be confirmed before final publication.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"></div><div><p class="timeline-date">PROFESSIONAL LEARNING</p><h3>Multi Cloud Data Engineering</h3><p class="timeline-place">Saylani</p><p>Currently learning SQL and working with relational tables and JOINs; continuing toward broader data engineering topics.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"></div><div><p class="timeline-date">SELF-STUDY</p><h3>Web Development & Python</h3><p class="timeline-place">Ongoing practice</p><p>Building foundations in frontend development, Python and data analysis libraries.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section container" id="contact">
+      <p class="eyebrow">05 / CONTACT</p>
+      <h2>Have an opportunity<br>or an idea? <span class="gradient-text">Let's talk.</span></h2>
+      <p class="contact-copy">I'm interested in learning opportunities, internships and projects that help me grow.</p>
+      <div class="contact-actions">
+        <a class="button button-primary" href="https://github.com/bilalahmed00827-svg" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+        <a class="button button-secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Add LinkedIn URL</a>
+      </div>
+      <p class="contact-placeholder">Email: add your professional email before publishing.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">BA<span>.</span></a><p>Designed and built by Bilal Ahmed · <span id="year"></span></p><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
